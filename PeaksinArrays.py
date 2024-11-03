@@ -6,5 +6,6 @@ def find_peaks(peaks):
     for i in range(1,len(peaks)-1):
         if((peaks[i] > peaks[i-1]) & (peaks[i] > peaks[i + 1])):
             stored_peaks.append(i)
+     return stored_peaks       
   
 
